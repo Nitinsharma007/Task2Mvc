@@ -1,0 +1,59 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+
+   <h1> For ViewBag Visit Privacy Page </h1>
+    
+
+    <h1>======= ViewData =======</h1>
+    <h4> @ViewData["Name"] </h4>
+
+    <h4> @ViewData["Age"] </h4>
+
+    <h4> @ViewData["Email"] </h4>
+
+    <h4> @ViewData["University"] </h4>
+
+    <h4> @ViewData["Time"] </h4>
+
+    @*<ul>
+        @foreach (var item in (List<string>) ViewData["DataList"])
+        {
+            <li>
+                @item
+            </li>
+        }
+    </ul>*@
+    
+    
+    <h1>======= TempData =======</h1>
+    <h4> @TempData["Name"] </h4>
+
+    <h4> @TempData["Age"] </h4>
+
+    <h4> @TempData["Email"] </h4>
+
+    <h4> @TempData["University"] </h4>
+
+    <h4> @TempData["Time"] </h4> 
+    
+
+   @* <h1>======= Session =======</h1>
+    <h4> @Session["Name"] </h4>
+
+    <h4> @Session["Age"] </h4>
+
+    <h4> @Session["Email"] </h4>
+
+    <h4> @Session["University"] </h4>
+
+    <h4> @Session["Time"] </h4>*@
+
+
+
+</div>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2MVC", "Task2MVC\Task2MVC.csproj", "{ABB18B65-FFCF-42A4-B557-953ACBFA6279}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABB18B65-FFCF-42A4-B557-953ACBFA6279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABB18B65-FFCF-42A4-B557-953ACBFA6279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABB18B65-FFCF-42A4-B557-953ACBFA6279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABB18B65-FFCF-42A4-B557-953ACBFA6279}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07CF5A56-C4AD-4E00-A754-5F3DB04988FD}
+	EndGlobalSection
+EndGlobal
